@@ -24,10 +24,10 @@ const routes = [
       //   component: () => import("src/pages/AdminRequest.vue"),
       // },
 
-      // {
-      //   path: "/user/request",
-      //   component: () => import("src/pages/UserRequest.vue"),
-      // },
+      {
+       path: "/user/request",
+        component: () => import("src/pages/UserRental.vue"),
+     },
     ]
   },
 
